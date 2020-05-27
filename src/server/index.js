@@ -3,7 +3,7 @@ const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 
 const app = express()
-
+var aylienAPI = require('aylien_textapi');
 app.use(express.static('dist'))
 
 console.log(__dirname)
