@@ -9,11 +9,12 @@
     "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
   },
   "keywords": [],
-  "author": "",
+  "author": "Agbolade Omowole",
   "license": "ISC",
-  "description": "",
+  "description": "This project uses the Aylien_textAPI to perform Natural Language Processing on a news website",
   "dependencies": {
     "aylien_textapi": "^0.7.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"

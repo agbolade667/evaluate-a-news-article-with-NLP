@@ -2,6 +2,10 @@ var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
 
+var bodyParser = require('body-parser');
+const express = require('express');
+var cors = require('cors');
+
 const app = express()
 
 // set aylien API credentias
