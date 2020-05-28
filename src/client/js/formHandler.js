@@ -7,7 +7,7 @@ let formText = document.getElementById('name').value;
     // check for valid url
     if (userUrl.isWebUri(formText)) {
         console.log("::: Form Submitted :::");
-        fetchAylien('http://localhost:8080/article', formText);
+        fetchAylien('http://localhost:3030/article', formText);
     } else {
         document.getElementById('error').innerHTML = 'Please Enter a Valid URL.';
         }

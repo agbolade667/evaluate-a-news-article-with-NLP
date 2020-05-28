@@ -19,7 +19,7 @@ app.use(express.static('dist'));
 // designates what port the app will listen to for incoming requests
 let port = process.env.PORT;
 if (port == null || port == "") {
-  port = 8080;
+  port = 3030;
 }
 app.listen(port); {
   console.log('App listening on port 8080!')
